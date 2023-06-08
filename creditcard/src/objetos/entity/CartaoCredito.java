@@ -3,10 +3,10 @@ package objetos.entity;
 public class CartaoCredito{
 
     private int numeroCartao;
-    private int dataValidade;
+    private String dataValidade;
     private int limite;  
     private int numeroCartaoAdicional;
-    private int dataValidadeAdicional;
+    private String dataValidadeAdicional;
     private int limiteAdicional;  
 
     public CartaoCredito(){
@@ -20,11 +20,11 @@ public class CartaoCredito{
         this.numeroCartaoAdicional = numeroCartaoAdicional;
     }
 
-    public int getDataValidadeAdicional() {
+    public String getDataValidadeAdicional() {
         return dataValidadeAdicional;
     }
 
-    public void setDataValidadeAdicional(int dataValidadeAdicional) {
+    public void setDataValidadeAdicional(String dataValidadeAdicional) {
         this.dataValidadeAdicional = dataValidadeAdicional;
     }
 
@@ -44,11 +44,11 @@ public class CartaoCredito{
         this.numeroCartao = numeroCartao;
     }
 
-    public int getDataValidade() {
+    public String getDataValidade() {
         return dataValidade;
     }
 
-    public void setDataValidade(int dataValidade) {
+    public void setDataValidade(String dataValidade) {
         this.dataValidade = dataValidade;
     }
 

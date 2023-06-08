@@ -1,4 +1,4 @@
-package objetos.cartaointerface;
+package objetos.blueprint;
 
 public interface cartaoInterface {
     public void novoCartao();
